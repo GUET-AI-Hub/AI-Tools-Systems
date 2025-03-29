@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ChatGPT Image 2025年3月29日 14_00_55.png" alt="GUET AI 工具系统平台" width="70%" />
+  <img src="AI-tools.png" alt="GUET AI 工具系统平台" width="70%" />
 </p>
 
 <p align="center">
