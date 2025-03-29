@@ -6,6 +6,10 @@
   <strong>简体中文 🛠️</strong> ｜ English 🌎（即将上线）
 </p>
 
+<p align="center">
+  👉 欢迎教师与学生提交自研工具，推动桂电 AI 工程能力共享！
+</p>
+
 ---
 
 ## 👋 欢迎访问 GUET-AI 工具系统平台
@@ -19,7 +23,30 @@
 - ✅ 下载完整工具资源包
 - ✅ 提交并共享您自研或整理的 AI 工具系统
 
-我们希望通过平台，汇聚桂电在 AI 工程实践方面的优秀成果，推动人工智能技术的共享、落地与再利用。
+---
+
+## 📥 上传方式
+
+欢迎通过以下方式上传您的工具资源：
+
+- ✅ [点击填写工具提交表单](https://github.com/GUET-AI-Hub/AI-Tools-Systems/issues/new?template=create_tool.yml)
+- ✅ Fork 本仓库 → 上传工具目录 → 提交 Pull Request
+- ✅ 将文件打包发送至管理员邮箱，由平台协助上传
+
+📁 推荐目录结构如下：
+
+```
+Tool_姓名_关键词
+├── README.md # 工具说明（功能/使用方法）
+├── main.py # 主程序文件
+├── demo.png # 示例截图（可选）
+├── requirements.txt # 环境依赖（可选）
+└── LICENSE # 授权协议（推荐 MIT）
+```
+
+
+📘 不熟悉 Git 操作？  
+👉 [点击查看 Fork + PR 上传详细说明](https://github.com/GUET-AI-Hub/.github/blob/main/profile/help%20doc.md)
 
 ---
 
@@ -27,9 +54,9 @@
 
 如您有任何建议或希望上传工具资源，请联系平台管理员：
 
-- 管理员：王学敏  
-- 邮箱：<wangxuemin@guet.edu.cn>  
-- GitHub主页：[GUET-AI-Hub](https://github.com/GUET-AI-Hub)
+- 👤 管理员：王学敏  
+- 📮 邮箱：<wangxuemin@guet.edu.cn>  
+- 🔗 GitHub主页：[GUET-AI-Hub](https://github.com/GUET-AI-Hub)
 
 ---
 
