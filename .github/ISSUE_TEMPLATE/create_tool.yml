@@ -1,0 +1,40 @@
+name: 🔧 提交 AI 工具
+description: 提交一个 AI 工具/系统
+title: "[工具] Tool_<姓名>_<关键词>"
+labels: [tool-submission]
+body:
+  - type: input
+    id: toolName
+    attributes:
+      label: 🛠️ 工具名称
+      placeholder: 图像增强小工具
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: 👤 作者姓名
+      placeholder: 李四
+    validations:
+      required: true
+
+  - type: textarea
+    id: function
+    attributes:
+      label: 📘 工具功能简介
+      placeholder: 简述工具的功能、原理、适用场景
+    validations:
+      required: true
+
+  - type: input
+    id: codeLink
+    attributes:
+      label: 🔗 代码地址（可选）
+      placeholder: https://github.com/example/tool
+
+  - type: input
+    id: uploadType
+    attributes:
+      label: 📤 上传方式
+      placeholder: GitHub 上传 / 邮件发送 / 待平台协助上传
